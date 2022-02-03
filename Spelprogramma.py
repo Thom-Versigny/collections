@@ -5,4 +5,4 @@ def spelProgramma(spelList, minimum, maximum):
 	for x in range(rng):
 		print(random.choice(spelList))
 
-spelProgramma(spelList, 4, 100)
+spelProgramma(spelList, 2, 7)

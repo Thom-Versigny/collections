@@ -6,7 +6,6 @@ def randomMenM(MMaantal):
 		zakMM.append(random.choice(mmkleur))
 	return zakMM
 
-MMaantal=int(input('hoeveel kleuren (M&M’s) wilt u toevoegen aan de zak: '))
+MMaantal=int(input('hoeveel kleuren (M&Ms) wilt u toevoegen aan de zak: '))
 zakMM = randomMenM(MMaantal)
 print(zakMM)
-input('press enter to exit')

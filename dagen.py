@@ -1,6 +1,5 @@
 dagen = ['maandag', 'dinsdag', 'woensdag', 'donderdag', 'vrijdag', 'zaterdag', 'zondag']
 
-
 print('Alle dagen van de week zijn:')
 for x in range(7):
     print(dagen[x])
